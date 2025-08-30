@@ -34,7 +34,7 @@ const ArticlesList = () => {
     event.preventDefault();
 
     let NewArt = {
-      id: articles[articles.length - 1].id + 1,
+      id: arts[arts.length - 1].id + 1,
       title: addArt,
     };
     // kCreata copia dell'arry originale 
